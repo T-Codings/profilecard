@@ -1,0 +1,187 @@
+*{
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f0f0f0; /* Optional: subtle background */
+        padding: 30px;
+    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.card{
+    width: 360px;
+    height:auto;
+    background-color: black;
+    background-color: transparent;
+    border: 0.5px solid rgb(109, 108, 108);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 20px;
+}
+.image-div{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 4px solid blue;
+    border-radius: 120px;
+    background-size: cover;
+}
+
+.image-div img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    object-fit: cover;
+    display: block;
+    padding:4px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: #030303;
+    margin: 30px 0 20px 0;}
+
+    h2{
+        font-size: 12px;
+        font-family:Times;
+        letter-spacing: 2px;
+        color: blue;
+        word-spacing: 3px;
+        margin: 10px 0 30px 0;
+    }
+p{
+    color: #777676;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.hobbies{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0 10px -40px;
+}
+p{
+    color: #777676;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.7;
+
+}
+.hub-div{
+   
+    gap: 15px;
+    margin: 15px 0 5px -55px;
+}
+
+h3{
+    font-size: 10px;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    color: #888;
+    margin: 0 0 10px -40px;
+}
+
+
+.hobbies button{
+    color: #0000ff;
+    background-color: #dedcdc;
+    font-family:Times;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 0.5px solid #d3d3f8;
+}
+.links{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.links button{
+    color: rgb(28, 28, 28);
+    background-color: transparent;
+    font-family: Times;
+    padding: 10px 50px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1.5px solid #d3d3f8;
+    transition: background 0.1s, color 0.1s, border-color 0.1s;
+}
+
+.links button:hover{
+    background-color: #dedcdc;
+    color: blue;
+    border: 1.5px solid blue;
+}
+.hello-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background: transparent;
+    border-radius: 8px;
+}
+.hello{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #0033cc;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    width: 310px;
+    min-width: 310px;
+    max-width: 310px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: background 0.1s, color 0.2s;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.hello:hover {
+    background-color: #01185d;
+    color: #fff;
+    opacity: 0.95;
+}
+
+.visit{
+    width: 310px;
+    height: 40px;
+    margin-bottom: 15px;
+    color:green;
+    font-family:Times;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: .5px solid #9acd32;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+}

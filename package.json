@@ -1,0 +1,17 @@
+{
+  "name": "my-profile-card",
+  "version": "1.0.0",
+  "description": "A modern, responsive profile card showcasing your web development journey with interactive elements and social links.",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "profile",
+    "portfolio",
+    "card",
+    "web-developer"
+  ],
+  "author": "Nyang",
+  "license": "MIT"
+}
